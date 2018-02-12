@@ -18,6 +18,8 @@ public class RecyclerViewActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_recycler_view);
 
+    setTitle("Without Android Annotations");
+
     final RecyclerView recyclerView = findViewById(R.id.recycler_view);
     recyclerView.setAdapter(new Adapter(new String[]{ "Hello", "World" }));
   }

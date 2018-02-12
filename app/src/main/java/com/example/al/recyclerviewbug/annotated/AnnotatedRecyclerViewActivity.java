@@ -32,6 +32,7 @@ public class AnnotatedRecyclerViewActivity extends AppCompatActivity {
 
   @AfterViews
   protected void initialize() {
+    setTitle("With Android Annotations");
     adapter.items = new String[]{"Hello", "World"};
     recyclerView.setAdapter(adapter);
   }
