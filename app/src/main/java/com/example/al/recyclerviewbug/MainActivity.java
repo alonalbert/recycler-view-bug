@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.al.recyclerviewbug.annotated.AnnotatedRecyclerViewActivity_;
 import com.example.al.recyclerviewbug.plain.RecyclerViewActivity;
+import com.example.al.recyclerviewbug.working_annotatated.WorkingAnnotatedRecyclerViewActivity_;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,5 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
   public void startAnnotatedRecyclerViewActivity(View view) {
     startActivity(new Intent(this, AnnotatedRecyclerViewActivity_.class));
+  }
+
+  public void startWorkingAnnotatedRecyclerViewActivity(View view) {
+    startActivity(new Intent(this, WorkingAnnotatedRecyclerViewActivity_.class));
   }
 }
