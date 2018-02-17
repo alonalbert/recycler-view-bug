@@ -42,11 +42,6 @@ public class WorkingAnnotatedRecyclerViewActivity extends AppCompatActivity {
     super(context, attrs);
   }
 
-  public ItemView(Context context, AttributeSet attrs, int defStyleAttr) {
-    super(context, attrs, defStyleAttr);
-  }
-
-
   void bind(String text) {
       left.setText("Left " + text);
       right.setText("Right " +  text);

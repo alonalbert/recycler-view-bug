@@ -180,11 +180,6 @@ public final class WorkingAnnotatedRecyclerViewActivity_
       init_();
     }
 
-    public ItemView_(Context context, AttributeSet attrs, int defStyleAttr) {
-      super(context, attrs, defStyleAttr);
-      init_();
-    }
-
     public static ItemView build(Context context, ViewGroup parent) {
       final ItemView_ view = (ItemView_) LayoutInflater.from(parent.getContext())
           .inflate(R.layout.item_working_annotated, parent, false);
